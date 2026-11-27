@@ -1,0 +1,9 @@
+{
+  "mission_id": "DEV-001",
+  "status": "ready",
+  "current_phase": "research",
+  "completed_phases": [],
+  "next_phase": "plan",
+  "last_test_status": null,
+  "last_evaluation": null
+}

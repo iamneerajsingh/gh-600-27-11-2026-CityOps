@@ -1,0 +1,17 @@
+{"timestamp": "2026-11-27T06:14:55.662498+00:00", "event": "application_started", "details": {"state_file": "C:\\Users\\neekumar\\Downloads\\27-11-2026-cityops-app\\gh-600-27-11-2026-CityOps\\.agent\\state.json", "audit_file": "C:\\Users\\neekumar\\Downloads\\27-11-2026-cityops-app\\gh-600-27-11-2026-CityOps\\.agent\\audit.jsonl"}}
+{"timestamp": "2026-11-27T06:16:52.435661+00:00", "event": "read_agent_state", "details": {"mission_id": "DEV-001"}}
+{"timestamp": "2026-11-27T06:16:52.440212+00:00", "event": "health_check", "details": {"endpoint": "/"}}
+{"timestamp": "2026-11-27T06:16:52.488601+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "P1"}}
+{"timestamp": "2026-11-27T06:16:52.495315+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "P2"}}
+{"timestamp": "2026-11-27T06:16:52.502355+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T06:16:52.507009+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "P1"}}
+{"timestamp": "2026-11-27T06:16:52.531359+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "P2"}}
+{"timestamp": "2026-11-27T06:16:52.572635+00:00", "event": "list_incidents", "details": {"count": 2}}
+{"timestamp": "2026-11-27T06:16:52.577755+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T06:16:52.582122+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T06:16:52.615831+00:00", "event": "health_check", "details": {"endpoint": "/"}}
+{"timestamp": "2026-11-27T06:16:52.619104+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "P1"}}
+{"timestamp": "2026-11-27T06:16:52.621752+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T06:16:52.624684+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "P2"}}
+{"timestamp": "2026-11-27T06:16:52.626801+00:00", "event": "get_incident", "details": {"incident_id": 2}}
+{"timestamp": "2026-11-27T06:16:52.629414+00:00", "event": "list_incidents", "details": {"count": 2}}
