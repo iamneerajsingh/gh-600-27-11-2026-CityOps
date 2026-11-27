@@ -234,10 +234,18 @@ def get_incident_priority(incident_id):
             "error": "Incident not found"
         }), 404
 
-    priority = {
-        "high": "P1",
-        "medium": "P2"
-    }[incident["severity"]]
+    if incident["severity"] == "critical":
+        priority = "critical"
+    elif (
+        incident["severity"] == "high"
+        and incident["status"] == "closed"
+    ) or (
+        incident["severity"] == "medium"
+        and incident["status"] == "open"
+    ):
+        priority = "high"
+    else:
+        priority = "normal"
 
     audit(
         "get_incident_priority",

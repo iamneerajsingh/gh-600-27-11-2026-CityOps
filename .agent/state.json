@@ -1,9 +1,15 @@
 {
   "mission_id": "DEV-001",
-  "status": "ready",
-  "current_phase": "research",
-  "completed_phases": [],
-  "next_phase": "plan",
-  "last_test_status": null,
-  "last_evaluation": null
+  "status": "in_review",
+  "current_phase": "review",
+  "completed_phases": [
+    "research",
+    "plan",
+    "implement",
+    "test",
+    "evaluation"
+  ],
+  "next_phase": "human_review",
+  "last_test_status": "passed",
+  "last_evaluation": "passed"
 }
