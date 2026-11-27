@@ -17,9 +17,10 @@ CityOps currently provides:
 ### Incident priority
 
 `GET /incidents/<id>/priority` returns JSON with the incident ID and
-priority, for example `{"id": 1, "priority": "P1"}`.
-High severity maps to `P1` and medium severity maps to `P2`,
-regardless of whether the incident is open or closed.
+priority, for example `{"id": 1, "priority": "normal"}`.
+Critical severity maps to `critical`; high severity incidents that are
+closed and medium severity incidents that are open map to `high`.
+All other incidents map to `normal`.
 Missing incidents return HTTP 404 with
 `{"error": "Incident not found"}`.
 Existing incident listing and retrieval responses are unchanged.

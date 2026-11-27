@@ -15,3 +15,17 @@
 {"timestamp": "2026-11-27T06:16:52.624684+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "P2"}}
 {"timestamp": "2026-11-27T06:16:52.626801+00:00", "event": "get_incident", "details": {"incident_id": 2}}
 {"timestamp": "2026-11-27T06:16:52.629414+00:00", "event": "list_incidents", "details": {"count": 2}}
+{"timestamp": "2026-11-27T09:08:36.944516+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:36.945126+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:36.946339+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "critical"}}
+{"timestamp": "2026-11-27T09:08:36.946778+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:36.947174+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:36.947591+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:36.947967+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:36.948322+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:36.948927+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T09:08:36.949691+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:36.950145+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T09:08:36.950522+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:36.950848+00:00", "event": "get_incident", "details": {"incident_id": 2}}
+{"timestamp": "2026-11-27T09:08:36.951183+00:00", "event": "list_incidents", "details": {"count": 2}}

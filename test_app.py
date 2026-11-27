@@ -104,7 +104,7 @@ class TestCityOps(unittest.TestCase):
 
     def test_get_incident_priority(self):
 
-        for incident_id, priority in ((1, "P1"), (2, "P2")):
+        for incident_id, priority in ((1, "normal"), (2, "high")):
             with self.subTest(incident_id=incident_id):
 
                 response = self.client.get(
@@ -127,20 +127,30 @@ class TestCityOps(unittest.TestCase):
                     {"incident_id": incident_id, "priority": priority}
                 )
 
-    def test_closed_incident_priority(self):
+    def test_incident_priority_mapping(self):
 
-        for severity, priority in (("high", "P1"), ("medium", "P2")):
-            with self.subTest(severity=severity):
+        cases = (
+            ("critical", "open", "critical"),
+            ("high", "closed", "high"),
+            ("medium", "open", "high"),
+            ("high", "open", "normal"),
+            ("medium", "closed", "normal"),
+            ("low", "closed", "normal"),
+        )
+
+        for severity, status, priority in cases:
+            with self.subTest(severity=severity, status=status):
                 with patch("app.INCIDENTS", [{
                     "id": 1,
-                    "title": "Resolved incident",
+                    "title": "Test incident",
                     "severity": severity,
-                    "status": "closed"
+                    "status": status
                 }]):
 
                     response = self.client.get("/incidents/1/priority")
 
                     self.assertEqual(response.status_code, 200)
+                    self.assertTrue(response.is_json)
                     self.assertEqual(
                         response.json,
                         {"id": 1, "priority": priority}
