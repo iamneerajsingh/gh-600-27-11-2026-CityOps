@@ -29,3 +29,43 @@
 {"timestamp": "2026-11-27T09:08:36.950522+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
 {"timestamp": "2026-11-27T09:08:36.950848+00:00", "event": "get_incident", "details": {"incident_id": 2}}
 {"timestamp": "2026-11-27T09:08:36.951183+00:00", "event": "list_incidents", "details": {"count": 2}}
+{"timestamp": "2026-11-27T09:08:50.211716+00:00", "event": "read_agent_state", "details": {"mission_id": "DEV-001"}}
+{"timestamp": "2026-11-27T09:08:50.212438+00:00", "event": "health_check", "details": {"endpoint": "/"}}
+{"timestamp": "2026-11-27T09:08:50.213807+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T09:08:50.214513+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.214978+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.215640+00:00", "event": "list_incidents", "details": {"count": 2}}
+{"timestamp": "2026-11-27T09:08:50.216339+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T09:08:50.217009+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T09:08:50.217604+00:00", "event": "health_check", "details": {"endpoint": "/"}}
+{"timestamp": "2026-11-27T09:08:50.218622+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "critical"}}
+{"timestamp": "2026-11-27T09:08:50.219156+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.219671+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.220045+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.220403+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.220802+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.221349+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.221751+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T09:08:50.222076+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.222377+00:00", "event": "get_incident", "details": {"incident_id": 2}}
+{"timestamp": "2026-11-27T09:08:50.222723+00:00", "event": "list_incidents", "details": {"count": 2}}
+{"timestamp": "2026-11-27T09:08:50.417009+00:00", "event": "read_agent_state", "details": {"mission_id": "DEV-001"}}
+{"timestamp": "2026-11-27T09:08:50.417624+00:00", "event": "health_check", "details": {"endpoint": "/"}}
+{"timestamp": "2026-11-27T09:08:50.418867+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T09:08:50.419345+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.419794+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.420285+00:00", "event": "list_incidents", "details": {"count": 2}}
+{"timestamp": "2026-11-27T09:08:50.420759+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T09:08:50.421170+00:00", "event": "incident_not_found", "details": {"incident_id": 999}}
+{"timestamp": "2026-11-27T09:08:50.421659+00:00", "event": "health_check", "details": {"endpoint": "/"}}
+{"timestamp": "2026-11-27T09:08:50.422321+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "critical"}}
+{"timestamp": "2026-11-27T09:08:50.422724+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.423076+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.423412+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.423778+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.424112+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.424562+00:00", "event": "get_incident_priority", "details": {"incident_id": 1, "priority": "normal"}}
+{"timestamp": "2026-11-27T09:08:50.424852+00:00", "event": "get_incident", "details": {"incident_id": 1}}
+{"timestamp": "2026-11-27T09:08:50.425154+00:00", "event": "get_incident_priority", "details": {"incident_id": 2, "priority": "high"}}
+{"timestamp": "2026-11-27T09:08:50.425446+00:00", "event": "get_incident", "details": {"incident_id": 2}}
+{"timestamp": "2026-11-27T09:08:50.425764+00:00", "event": "list_incidents", "details": {"count": 2}}
